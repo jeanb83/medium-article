@@ -1,0 +1,82 @@
+#banner h1 {
+  font-size: 38px;
+}
+
+#banner {
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+.container{
+  margin: 50px auto;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.container > h2{
+  color: #a0a0a0;
+  font-size: 27px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+.container > p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+.link-medium:hover {
+    background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, .2));
+    }
+.logo_amazon{
+  font-size:100px;
+  color : red;
+}
+.container > .inline{
+  display: inline;
+}
